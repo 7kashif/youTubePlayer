@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">VideoPlayer-app</string>
+    <string name="media_url_mp3">https://storage.googleapis.com/exoplayer-test-media-0/Jazz_In_Paris.mp3</string>
+    <string name="media_url_mp4">https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4</string>
+    <string name="get_thumbnail">https://i.ytimg.com/vi/%1$s/0.jpg</string>
+<!-- you can use 1.jpg 2.jpg 3.jpg or default.jpg form smaller thumbnails   -->
+</resources>
