@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     private var currentWindow = 0
     private var playBackPosition = 0L
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
@@ -33,7 +32,6 @@ class MainActivity : AppCompatActivity() {
         val url = getString(R.string.get_thumbnail,videoId)
         val handler = ThumbnailHandler()
         handler.getCroppedThumbnail(url,binding.thumbnail,this)
-
     }
 
     private fun initializePlayer() {

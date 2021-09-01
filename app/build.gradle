@@ -45,12 +45,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    //youtube extractor
-    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:v2.1.0'
-
     //exoplayer
     implementation 'com.google.android.exoplayer:exoplayer:2.15.0'
 
+    //for getting youtube playable url for exoplayer
     implementation 'com.github.yausername.youtubedl-android:library:0.12.4'
 
     //glide
